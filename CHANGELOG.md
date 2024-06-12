@@ -1,3 +1,37 @@
+### v5.2.1 (2024-06-12)
+
+#### Miscellaneous chores
+
+* removed add-to-board which adds issues/PRs to Node.js agent team github board ([#446](https://github.com/newrelic/serverless-newrelic-lambda-layers/pull/446)) ([8162697](https://github.com/newrelic/serverless-newrelic-lambda-layers/commit/8162697ae3f31214e8835b2613914f28d886039f))
+
+#### Continuous integration
+
+* Updated create release to pass in `build: true` ([#450](https://github.com/newrelic/serverless-newrelic-lambda-layers/pull/450)) ([4fd4ea3](https://github.com/newrelic/serverless-newrelic-lambda-layers/commit/4fd4ea31c248c68122a9d8e84f3e5a706d35e35c))
+
+### v5.2.0 (2024-06-11)
+
+#### Features
+
+* Added python 3.12 ([#434](https://github.com/newrelic/serverless-newrelic-lambda-layers/pull/434)) ([a429cde](https://github.com/newrelic/serverless-newrelic-lambda-layers/commit/a429cde681122945d5d5008ef573236a31fac724))
+
+#### Security improvements
+
+* **deps:** bump tar from 6.1.13 to 6.2.1 ([#431](https://github.com/newrelic/serverless-newrelic-lambda-layers/pull/431)) ([92fa210](https://github.com/newrelic/serverless-newrelic-lambda-layers/commit/92fa210a1caac612979cb7fb34c4e78e5532c416))
+
+#### Miscellaneous chores
+
+* **ci:** Removed redundant publish.yml workflow ([#427](https://github.com/newrelic/serverless-newrelic-lambda-layers/pull/427)) ([b392bdc](https://github.com/newrelic/serverless-newrelic-lambda-layers/commit/b392bdcfc1e6160cc3e9dd374ad9aca764d20d52))
+
+#### Tests
+
+* **layer:** upgrade Lambda layer version in tests NR-278207 ([#442](https://github.com/newrelic/serverless-newrelic-lambda-layers/pull/442)) ([1b7a6f7](https://github.com/newrelic/serverless-newrelic-lambda-layers/commit/1b7a6f75fd69c8058c42367c8ceffaa978f0c038))
+* Updated ARNs to contain latest layer versions ([#432](https://github.com/newrelic/serverless-newrelic-lambda-layers/pull/432)) ([8414422](https://github.com/newrelic/serverless-newrelic-lambda-layers/commit/8414422f70307397485860ab47e4149511e67042))
+
+#### Continuous integration
+
+* Removed `use_new_release` input from prepare release workflow ([#430](https://github.com/newrelic/serverless-newrelic-lambda-layers/pull/430)) ([e339d48](https://github.com/newrelic/serverless-newrelic-lambda-layers/commit/e339d4802b8779f1968c88c9b7c298d35ffc2aaf))
+* removed changelog.json file ([#429](https://github.com/newrelic/serverless-newrelic-lambda-layers/pull/429)) ([924c798](https://github.com/newrelic/serverless-newrelic-lambda-layers/commit/924c798f800c67e5a5be14760df45e7c94d6068f))
+
 ### v5.1.0 (2024-03-26)
 
 #### Bug fixes
